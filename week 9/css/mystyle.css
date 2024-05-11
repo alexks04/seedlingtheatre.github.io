@@ -1,0 +1,386 @@
+@charset "utf-8";
+
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;   
+}
+
+.sign-up-btn {
+    color: #B4C697;
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 6px;
+    font-family: "Varela round", sans-serif;
+}
+
+.sign-up-btn:hover {
+    background-color: white;
+    color: #2C1F1F;
+    text-decoration: none;   
+}
+
+.montserrat-head {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.p-2 {
+    color: #B4C697;
+    font-family: "Varela Round", sans-serif;
+}
+
+.p-2:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #2c1f1f;
+    color: #B4C697
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    color: #B4C697;
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #2C1F1F;
+    min-width: 175px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #B4C697;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #2C1F1F;
+}
+
+.site-footer {
+    background-color: #150f0f;
+    padding: 15px;
+    font-family: "Varela round", sans-serif;
+    font-size: 12pt;
+}
+
+h7 {
+    color: beige;
+    font-family: "Montserrat";
+    font-size: 12pt;
+}
+
+.footer-links {
+    list-style: none;  
+    padding-left: 0;
+    text-decoration: none;
+    color: #B4C697;
+    font-size: 12pt;
+    font-family: "Varela round", sans-serif;
+}
+
+.footer-links li {
+    display: block;
+}
+
+.footer-links a {
+    color: #B4C697;
+    font-family: "Varela round", sans-serif;
+    font-size: 12pt;
+}
+
+.footer-links a:hover {
+    color: beige;
+}
+
+a {
+    color: #B4C697;
+}
+
+input[type=submit] {
+    background-color: #B4C697;
+    border: none;
+    color: beige;
+    padding: 3px;
+    margin: 8px;
+    text-decoration: none;
+    border-radius: 2px; 
+}
+
+.footer-text {
+    color: #B4C697;
+    font-size: 12pt ;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    opacity: 75%;
+    outline: none;
+}
+
+#myCarousel {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.carousel-control-prev {
+    margin-left: -100px;
+}
+
+.carousel-control-next {
+    margin-right: -100px;
+}
+
+.lead {
+    color: white;
+    font-size: 18pt;
+    padding: 10px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 200;
+}
+
+.featurette-heading {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.featurette {
+    padding-bottom: 15px;
+}
+
+.dates {
+    color: white;
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input[type=text-2] {
+    padding: 10px 20px;
+    width: 100%;
+    margin: 8px;
+}
+
+input[type=text-3] {
+    padding: 10px 20px;
+    padding-bottom: 90px;
+    width: 100%;
+    margin: 8px;
+}
+
+label {
+    font-family: "Montserrat";
+    color: beige;
+    margin-left: 8px;
+}
+
+.contact-form {
+    padding: auto;
+    margin-bottom: 20px;
+}
+
+h9 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18pt;
+    color: beige;
+    padding: 10px;
+    
+}
+
+.preview {
+    padding-top: 50px;
+}
+
+.card-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14pt;
+    color: black;
+}
+
+.card-title:hover {
+    text-decoration: none;
+    color: #B4C697;
+    cursor: pointer;
+}
+
+.card {
+    margin-top: 50px;
+    padding: 1em;
+    line-height: 1.5em; 
+    background-color: antiquewhite
+}
+
+.card-text {
+    font-family: "Varela round", sans-serif;
+}
+.quantity-form {
+    padding: 10px; 
+}
+
+.add-to-cart {
+    padding: 1.2em 1.5em;
+    border: 2px;
+    border-color: #B4C697;
+    text-transform: UPPERCASE;
+    font-weight: bold;
+    color: #B4C697;
+}
+
+.add-to-cart:hover {
+    background: #B4C697;
+    color: white;
+}
+
+.show-date {
+    margin-bottom: 15px;
+}
+
+input[type=number] {
+    padding 5px;
+    width: auto;
+}
+
+.mb-0 {
+    font-family: "Montserrat", sans-serif;
+    color: #B4C697;
+}
+
+.mb-1 {
+    font-family: "Varela round", sans-serif;
+}
+
+a {
+    font-family: "Varela round", sans-serif;
+    color: #B4C697;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+    width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+  padding: 20px;
+}
+
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+
+input[type=password] {
+    padding: 10px 20px;
+    width: 100%;
+    margin: 8px;
+}
+
+.a {
+    text-decoration: none;
+    color: #B4C697;
+}
